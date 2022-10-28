@@ -1,0 +1,197 @@
+@font-face { font-family: Custom; src: url('RadleySans-ZVYBK.ttf'); } 
+
+a {
+	color: black;
+	font-family: Custom;
+}
+
+/*===Navigation Bar========================================*/
+.header {
+	padding: 30px;
+	font-size: 23px;
+	text-align: center;
+	font-size: 30px;
+}
+.logo img {
+	margin: 10px;
+	margin-left: 20px;
+	position: absolute;
+	height: 65px;
+	width: 65px;
+}
+.logo2 {
+	display: none;
+	position: absolute;
+}
+.logo:hover img{
+	display: inline;
+}
+.nav {
+	background: #6495ed;
+	text-decoration: none;
+	padding: 5px;
+	margin-left: 10px;
+	border-radius: 5px;
+	border-style: solid;
+}
+a.nav:hover {
+  background-color: #b0e0e6;
+}
+
+/*===Shoe Titles and Cards========================================*/
+.titleCard {
+	background-color: #6495ed;
+	color: black;
+	width :  250px;
+	height : 40px;
+	border-radius: 7px;
+	margin-left: 30px;
+	margin-top: 50px;
+	text-align: center;
+	font-family: Custom;
+	font-size: 30px;
+	text-decoration: underline;
+	clear: left;
+}
+.shoeCard {
+	background-color: #6495ed;
+	width :  200px;
+	height : 310px;
+	border-style: solid;
+	border-radius: 7px;
+	margin-left: 30px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-family: Custom;
+	font-size: 20px;
+	text-align: center;
+	float: left;
+}
+.shoeImage {
+	height: 175px;
+	width: 175px;
+}
+.AddToCart {
+	background: black;
+	color: white;
+	border-radius: 7px;
+	font-size: 20px;
+	font-family: Custom;
+	cursor: pointer;
+}
+.AddToCart:hover {
+	border-style: solid;
+	border-color: White;
+}
+.AddToCart:active {
+	background: white;
+	color: black;
+}
+/*===Welcome Page ========================================*/
+.introduction {
+	margin-left: 200px;
+	position: absolute;
+	top: 50%;							/*=top acts as the top margin=*/
+	transform: translateY(-50%);		/*=transform acts as the bottom margin*/
+	font-family: Custom;
+	width: 25%;
+	float: left;
+}
+.airjordans {
+	height: 35%;
+	width: 35%;
+	float: right;
+	margin-top: 1%;
+	margin-right: 20%;
+	position: sticky;
+}
+.button {
+	height: 75px;
+	width: 200px;
+	font-size: 30px;
+	background: #b0e0e6;
+	font-family: Custom;
+	border-style: solid;
+	border-radius: 7px;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.button:hover {
+	opacity: 0.5;
+	box-shadow: 2px 2px;
+}
+.button:active {
+	background-color: blue;
+	box-shadow: 2px 2px;
+}
+
+/*===Shop Menu ========================================*/
+.shoes {
+	width: 20%;
+	height: 20%;
+	margin: 6%;
+}
+a.cardanim:hover {
+	opacity: 0.7;
+}
+
+/*===Contact Page ========================================*/
+.about {
+	background-color: #96ded1;
+	height: 380px;
+	width: 420px;
+	float: left;
+	margin-top: 75px;
+	border-radius: 7px;
+	border-style: solid;
+}
+.about p {
+	font-family: "Monaco", monospace;
+	margin: 10px;
+	font-weight: bold;
+}
+.about ul li{
+	font-size: 20px;
+	list-style-type: none;
+	font-family: "Monaco", monospace;
+}
+.contactheader {
+	text-align: center;
+	text-decoration: underline;
+	font-family: Custom;
+}
+.nike {
+	border: none;
+	cursor: pointer;
+	font-family: Custom;
+	border-radius: 7px;
+	font-size: 15px;
+}
+.contactCenter {
+	margin: 200%;
+}
+/*===Add To Cart ========================================*/
+.shoeInfo {
+	min-height: 30%; 
+	width: 40%;
+	float: left;
+	margin-top: 3%;
+	border-width: 10px;
+	border-radius: 7px;
+	border-style: solid;
+	background: #dcdcdc; 
+	font-family: Custom;
+	padding: 10px;
+}
+.choosecolor {
+	height: 50px;
+	width: 50px;
+	border-width: 5px;
+	border-radius: 100px;
+}
+.choosecolor:hover {
+	opacity: 0.5;
+}
+.choosecolor:active {
+	box-shadow: 2px 2px;
+}
